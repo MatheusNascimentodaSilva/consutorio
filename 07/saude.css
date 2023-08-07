@@ -1,0 +1,323 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter',sans-serif;
+  
+}
+
+
+body
+{
+    background: #F1F1F1;
+}
+
+header
+{
+    background: #2152FF;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: end;
+    color: #fff;
+}
+
+h1
+{
+    padding: 15px;
+}
+
+img
+{
+    width: 100%;
+
+}
+
+.ee
+{
+    margin: 1rem;
+    margin: 30px;
+     color: #2152FF;
+     font-size: 30px;
+     
+}
+
+
+.pa
+{
+   
+   margin: 40px 30px ;
+    font-size: 16px;
+   
+}
+
+img
+{
+min-height: 100%;
+
+
+}
+
+
+a
+{
+        border: 2px solid #2152FF;
+        margin: 40px 30px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        background-color: #fff;
+        color: #fff;
+        background: #2152FF;
+        font-weight: 600;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        
+
+
+}
+
+
+.segunda
+{
+    margin: 38px 30px;
+    color: #2152FF;
+    font-weight: 900;
+    
+}
+
+.card
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    font-weight: bold;
+    
+    
+}
+
+
+.quadrado
+{
+
+
+border: 1px solid #FFFFFF;
+border-radius: 5px;
+background-color: #000;
+background: #FFFFFF;
+padding: 30px;
+gap: 40px;
+margin-bottom: 30px;
+
+
+
+
+
+
+}
+
+
+footer
+{
+    padding: 10px;
+    background: #2152FF;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: row;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1280px)
+
+{
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body
+{
+    background: #F1F1F1;
+}
+
+header
+{
+    background: #2152FF;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: end;
+    color: #fff;
+}
+
+h1
+{
+    padding: 15px;
+}
+
+img
+{
+    min-width: 100%;
+}
+
+.ee
+{
+    margin: 1rem;
+    margin: 30px;
+     color: #2152FF;
+     font-size: 30px;
+     
+}
+
+
+.pa
+{
+   
+   margin: 40px 30px ;
+    font-size: 16px;
+   
+}
+
+
+a
+{
+        border: 2px solid #2152FF;
+        margin: 40px 30px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        background-color: #fff;
+        color: #fff;
+        background: #2152FF;
+        font-weight: 600;
+        text-decoration: none;
+        width: 360px;
+     
+
+       
+       
+        
+
+
+}
+
+
+.segunda
+{
+    margin: 38px 30px;
+    color: #2152FF;
+    
+}
+
+.card
+{
+    
+
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    gap: 48px;
+   
+   
+ 
+}
+
+
+.quadrado
+{
+
+
+   width: 280px;
+    font-weight: bold;
+    border: 1px solid #FFFFFF;
+    border-radius: 16px;
+    background-color: #000;
+    background: #FFFFFF;
+    padding-right: 150px ;
+    margin-bottom: 30px;
+    animation: animar 10s linear infinite;
+    
+}
+
+
+@keyframes animar {
+
+    from {
+        transform: perspective(1000deg);
+
+    }
+
+    to{
+        transform: perspective(1000px)
+        rotateY(360deg);
+
+    }
+    
+}
+
+
+.quadrado img{
+    width: 100px;
+  
+}
+
+
+footer
+{
+    padding: 10px;
+    background: #2152FF;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+
+}
+
